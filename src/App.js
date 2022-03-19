@@ -3,7 +3,9 @@ import "./App.css";
 
 function App() {
   const spotifyID = process.env.REACT_APP_SPOTIFY_ID;
+  const spotifySecret = process.env.REACT_APP_SPOTIFY_SECRET;
   console.log(spotifyID);
+  console.log(spotifySecret);
 
   return (
     <div className="App">
