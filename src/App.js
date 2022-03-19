@@ -1,7 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
+  const spotifyID = process.env.REACT_APP_SPOTIFY_ID;
+  console.log(spotifyID);
+
   return (
     <div className="App">
       <header className="App-header">
